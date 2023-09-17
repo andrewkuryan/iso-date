@@ -1,0 +1,22 @@
+package iso-date
+
+version     = 0.1.0
+brief       = "ISO DateTime type implementation"
+authors     = "Andrew Kuryan"
+homepage    = ""
+license     = "GPL-3.0"
+
+sourcedir   = "src"
+builddir    = "build"
+
+depends     = base >= 0.6.0
+
+modules     = Date.ISODate,
+              Date.ISOUtils,
+              Date.Lexer.DFA,
+              Date.Lexer.LexicalError,
+              Date.Lexer.ISOString,
+              Date.Lexer.ISOStringTest,
+              Date.Parser.SyntaxError,
+              Date.Parser.ISOString,
+              Date.Parser.ISOStringTest
