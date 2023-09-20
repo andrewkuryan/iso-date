@@ -13,6 +13,7 @@ depends     = base >= 0.6.0
 
 modules     = Date.ISODate,
               Date.ISOUtils,
+              Date.Locale,
               Date.Lexer.DFA,
               Date.Lexer.LexicalError,
               Date.Lexer.ISOString,
